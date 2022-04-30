@@ -1,0 +1,16 @@
+{
+    "name": "TextBuilder",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a95e05980605f13438c1ecc9e29464fd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
