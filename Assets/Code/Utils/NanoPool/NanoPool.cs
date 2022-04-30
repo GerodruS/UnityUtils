@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class NanoPool<T>
+public partial class NanoPool<T>
     where T : class, new()
 {
     public static readonly NanoPool<T> instance = new NanoPool<T>();
@@ -10,11 +10,13 @@ public class NanoPool<T>
     public T Retain()
     {
         T result = Get();
+        OnRetain(result);
         return result;
     }
 
     public void Release(ref T obj)
     {
+        OnRelease(obj);
         _pool.Push(obj);
         obj = null;
     }
