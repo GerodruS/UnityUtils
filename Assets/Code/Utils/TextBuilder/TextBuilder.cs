@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public class TextBuilder
+public partial class TextBuilder
 {
     private const int START_LENGTH = 32;
     private readonly float[] FLOAT_POWER =

@@ -2,7 +2,8 @@
     "name": "TextBuilder",
     "rootNamespace": "",
     "references": [
-        "GUID:a95e05980605f13438c1ecc9e29464fd"
+        "GUID:a95e05980605f13438c1ecc9e29464fd",
+        "GUID:8ba690d6940b53547afc129b47869107"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
